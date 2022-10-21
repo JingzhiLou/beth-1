@@ -3,12 +3,12 @@
 # reference: Wang MH, Lou J, Cao L, et al. Characterization of key amino acid substitutions and dynamics of the influenza virus H3N2 hemagglutinin. J Infect. 2021;83(6):671-677. doi:10.1016/j.jinf.2021.09.026
 
 
-# step 1: calculate site-based amino acid prevalence
-# input csv format sequence data and out put site wise prevalence through time
+# step 1: calculate site wise amino acid prevalence
+# input csv format sequence data and out put site wise prevalence through time, please run the following code for both HA and NA sequence
 
 library(plyr)
-inputdata_name <- c("H3N2_HA_HK_sequence.csv")
-outputdata_name <- c("H3N2_HA_HK_prevalence.csv")
+inputdata_name <- c("H3N2_HA_HK_sequence.csv") # "H3N2_NA_HK_sequence.csv" for NA sequence
+outputdata_name <- c("H3N2_HA_HK_prevalence.csv") # "H3N2_NA_HK_prevalence.csv" for NA sequence
 
 seq <- read.csv(inputdata_name,sep=",")
 year <- sort(unique(seq$season))
@@ -40,10 +40,10 @@ write.csv(codata,file=outputdata_name)
 
 
 # step 2: calculate g-measure and transition time under different theta and h
-# input site wise prevalence and output g-measure and average transition time
+# input site wise prevalence and output g-measure and average transition time, please run the following code for both HA and NA sequence
 
-inputdata_name <- c("H3N2_HA_HK_prevalence.csv")
-outputdata_name <- c("H3N2_HA_HK_gmeasure.csv")
+inputdata_name <- c("H3N2_HA_HK_prevalence.csv") # "H3N2_NA_HK_prevalence.csv" for NA sequence
+outputdata_name <- c("H3N2_HA_HK_gmeasure.csv") # "H3N2_NA_HK_gmeasure.csv" for NA sequence
 
 myh <- read.csv(inputdata_name)
 myh <- myh[,-1]
@@ -109,9 +109,9 @@ write.csv(gmeasure,file=outputdata_name)
 
 
 # step 3: fit regression between epidemic trend and g-measure to find the optimal (theta,h) and corresponding transition time
-# output optimal (theta,h), corresponding p-value and average transition time
+# output optimal (theta,h), corresponding p-value and average transition time, please run the following code for both HA and NA sequence
 
-inputdata_gmeasure_name <- c("H3N2_HA_HK_gmeasure.csv")
+inputdata_gmeasure_name <- c("H3N2_HA_HK_gmeasure.csv") # "H3N2_NA_HK_gmeasure.csv" for NA sequence
 inputdata_epidemicdata_name <- c("H3N2_HK_EpidemicData.csv")
 
 myv_seq <- read.csv(inputdata_gmeasure_name)
