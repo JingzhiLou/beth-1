@@ -5,12 +5,12 @@
 
 
 # step 1: prediction of future mutation prevalence and consensus strain
-# input site wise prevalence table and output yearly predicted consensus strains
+# input site wise prevalence table and output yearly predicted consensus strains, please run the following code for both HA and NA sequence
 
-inputdata_name <- c("H3N2_HA_HK_prevalence.csv")
-outputdata_name <- c("HA_predicted_consensus_sequence.csv")
+inputdata_name <- c("H3N2_HA_HK_prevalence.csv") # "H3N2_NA_HK_prevalence.csv" for NA protein
+outputdata_name <- c("HA_predicted_consensus_sequence.csv") # "NA_predicted_consensus_sequence.csv" for NA protein
 transtime <- 2 # transition time is an integer and is adopted from the last step EstimateTransitionTime
-pred_year <- 10 # define # of predicted years, and it requires (transition time + 1) years data to burn in
+pred_year <- 10 # define # of predicted years, and it requires (transition time + 2) years data to burn in
 
 Prev_Table <- read.csv(inputdata_name)
 last_year <- Prev_Table[length(Prev_Table[,1]),1]
@@ -122,7 +122,7 @@ for (s in pre_year){
       }
     } 
 
-    for (n in union(na_em,na_as)){# current EM set of NA
+    for (n in union(na_em,na_as)){
       if (is.na(na_corresp[1,n+4])){}else{
         if (na_corresp[1,n+4]==pre_natest[1,n+1]){}else{
           na_emd <- na_emd+1
