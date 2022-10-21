@@ -5,10 +5,10 @@
 library(Biostrings)
 library(lubridate)
 
-inputdata_name <- c("H3N2_HA_HK_sequence.fasta")
-outputdata_name <- c("H3N2_HA_HK_sequence.csv")
+inputdata_name <- c("H3N2_HA_HK_sequence.fasta") # "H3N2_NA_HK_sequence.fasta" for NA sequence
+outputdata_name <- c("H3N2_HA_HK_sequence.csv") # "H3N2_NA_HK_sequence.csv" for NA sequence
 
-# please specify the input and output data name and run the following code
+# please specify the input and output data name and run the following code for both HA and NA sequence
 
 fasta_seq <- readAAStringSet(inputdata_name)
 name <- strsplit(fasta_seq@ranges@NAMES,split=" | ",fixed=T)
