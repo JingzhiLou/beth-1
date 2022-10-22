@@ -84,7 +84,7 @@ write.csv(complete_data,file=outputdata_name,row.names = F)
 
 
 
-
+###########################################################
 # step 2: calculate site wise amino acid prevalence
 # input csv format sequence data and out put site wise prevalence through time
 
@@ -156,7 +156,7 @@ write.csv(codata,file=outputdata_name)
 
 
 
-
+###########################################################
 # step 3: calculate g-measure and transition time under different theta and h
 # input site wise prevalence and output g-measure and average transition time
 # reference: Wang MH, Lou J, Cao L, et al. Characterization of key amino acid substitutions and dynamics of the influenza virus H3N2 hemagglutinin. J Infect. 2021;83(6):671-677. doi:10.1016/j.jinf.2021.09.026
@@ -296,7 +296,7 @@ write.csv(gmeasure,file=outputdata_name)
 
 
 
-
+###########################################################
 # step 4: fit regression between epidemic trend and g-measure to find the optimal (theta,h) and corresponding transition time
 
 # for HA protein
@@ -343,7 +343,7 @@ transtime_na <- round(transition_time[which.min(lm_coeff[2,])])
 
 
 
-
+###########################################################
 # step 5: prediction of future mutation prevalence and consensus strain
 # input site wise prevalence table and output yearly predicted consensus strains
 
@@ -477,7 +477,7 @@ write.csv(Pred_Sequence,file=outputdata_name)
 
 
 
-
+###########################################################
 # step 6: select wild type strain based on dynamic predictor sites set W(t)
 # input yearly predicted consensus strains and output wildtype sequences
 # Note: the EM sites and predictor sites include the signal piptide and start with M(Methionine)
@@ -586,7 +586,7 @@ write.csv(wildtype_na,file="CombinedH3N2_NA_Wildtype.csv",row.names = F)
 
 
 
-
+###########################################################
 # Step 7: calculate epitope distance between predicted vaccine strains and circulating strains
 # input vaccine strain and circulating strains, and output genetic mismatch
 
@@ -650,4 +650,8 @@ Mismatch_NA <- cbind(c(start_season:(start_season+pre_year-1)),ave_mismatch,sd)
 print(Mismatch_HA) # HA epitope mismatch for predicted vaccines against circulating viruses
 print(Mismatch_NA) # NA epitope mismatch for predicted vaccines against circulating viruses
 
-# output results: epitope mismatch for predicted vaccines against circulating viruses
+# output results: mismatch table
+
+# end.
+
+
