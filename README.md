@@ -2,9 +2,9 @@
 R codes for the article "Predictive evolutionary modelling for influenza virus by site-based dynamics of mutations".
 
 Input datasets:
--  genetic sequences of A/H3N2 virus from Oct 2008 to Sep 2020 (file names: H3N2_HA_DEMO_sequence.fasta, H3N2_NA_DEMO_sequence.fasta)
-- epidemic data (H3N2_DEMO_EpidemicData.csv)
-- the set of dynamic predictor codon sites for DEMO (H3N2_DEMO_EMset.csv)
+-  genetic sequences of A/H3N2 virus from Oct 2008 to Sep 2020 in Hong Kong SAR (file names: H3N2_HA_HK_sequence.fasta, H3N2_NA_HK_sequence.fasta)
+- epidemic data (H3N2_HK_EpidemicData.csv)
+- the set of dynamic predictor codon sites for HK (H3N2_HK_EMset.csv)
 - As reference group, the set of WHO recommended vaccine strains (H3N2_WHOvaccine_HA.csv, H3N2_WHOvaccine_NA.csv) 
 
 Step 0.  Install dependent packages 
@@ -14,7 +14,7 @@ lubridate (1.8.0): https://www.rdocumentation.org/packages/lubridate/versions/1.
 plyr (1.8.7): https://www.rdocumentation.org/packages/plyr/versions/1.8.7
 
 Step 1. Preparing data
-In this step, the program reads in viral sequence data in fasta format, perform alignment, and then converts the data to csv for further analysis. Two csv files will be converted, one for the HA and one for the NA sequences. (sequence nomenclature: epidemic season 2011/12 is labeled as 2012). 
+In this step, the program reads in viral sequence data in fasta format and converts the data to csv for further analysis. Two csv files will be converted, one for the HA and one for the NA sequences. (sequence nomenclature: epidemic season 2011/12 is labeled as 2012). 
 
 Step 2. Calculate site wise amino acid prevalence
 Site-wise amino acid prevalence through time is calculated for both HA and NA, output in two separate files. Run time: 3-5 minutes. 
@@ -41,5 +41,6 @@ References:
 [1] Wang MH, Lou J, Cao L, et al. Characterization of key amino acid substitutions and dynamics of the influenza virus H3N2 hemagglutinin. J Infect. 2021;83(6):671-677. doi:10.1016/j.jinf.2021.09.026
 [2] Cao L, Lou J, Zhao S, et al. In silico prediction of influenza vaccine effectiveness by sequence analysis. Vaccine. 2021;39(7):1030-1034. doi:10.1016/j.vaccine.2021.01.006
 [3] Cao L, Zhao S, Lou J, et al. Differential Influence of Age on the Relationship between Genetic Mismatch and A(H1N1)pdm09 Vaccine Effectiveness. Viruses. 2021;13(4):619. Published 2021 Apr 4. doi:10.3390/v13040619
+
 
 
