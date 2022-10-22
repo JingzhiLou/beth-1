@@ -51,7 +51,6 @@ complete_data <- as.data.frame(complete_data)
 complete_data[complete_data=="-"] <- NA
 write.csv(complete_data,file=outputdata_name,row.names = F)
 
-
 # for NA protein
 inputdata_name <- c("H3N2_NA_HK_sequence.fasta") 
 outputdata_name <- c("H3N2_NA_HK_sequence.csv") 
@@ -80,6 +79,8 @@ colnames(complete_data) <- c("accession number","name","date","season",aa_name)
 complete_data <- as.data.frame(complete_data)
 complete_data[complete_data=="-"] <- NA
 write.csv(complete_data,file=outputdata_name,row.names = F)
+
+# output files: H3N2_HA_HK_sequence.csv, H3N2_NA_HK_sequence.csv
 
 
 
@@ -150,6 +151,8 @@ for (i in 1:(length(seq[1,])-4)){
 codata[is.na(codata)] <- 0
 rownames(codata)<-year
 write.csv(codata,file=outputdata_name)
+
+# output files: H3N2_HA_HK_prevalence.csv, H3N2_NA_HK_prevalence.csv
 
 
 
@@ -223,6 +226,7 @@ colnames(gmeasure)<-colname
 gmeasure <- rbind(gmeasure,transition_time)
 write.csv(gmeasure,file=outputdata_name)   
 
+
 # for NA protein
 inputdata_name <- c("H3N2_NA_HK_prevalence.csv")
 outputdata_name <- c("H3N2_NA_HK_gmeasure.csv") 
@@ -288,11 +292,12 @@ colnames(gmeasure)<-colname
 gmeasure <- rbind(gmeasure,transition_time)
 write.csv(gmeasure,file=outputdata_name)
 
+# output files: H3N2_HA_HK_gmeasure.csv, H3N2_NA_HK_gmeasure.csv
+
 
 
 
 # step 4: fit regression between epidemic trend and g-measure to find the optimal (theta,h) and corresponding transition time
-# output optimal (theta,h), corresponding p-value and average transition time
 
 # for HA protein
 inputdata_gmeasure_name <- c("H3N2_HA_HK_gmeasure.csv") 
@@ -333,6 +338,8 @@ colnames(lm_coeff) <- colname
 print(c(colname[which.min(lm_coeff[2,])],paste0("p-value=",lm_coeff[2,which.min(lm_coeff[2,])]),
         paste0("transition time=",transition_time[which.min(lm_coeff[2,])])))
 transtime_na <- round(transition_time[which.min(lm_coeff[2,])])
+
+# output results: optimal (theta,h), corresponding p-value and average transition time
 
 
 
@@ -465,7 +472,8 @@ for (k in 1:pred_year){
 Pred_Sequence <- Pred_Sequence[seq(3,3*pred_year,3),]
 rownames(Pred_Sequence) <- sort(c((last_year+1):(last_year-pred_year+2)))
 write.csv(Pred_Sequence,file=outputdata_name)
-# Note: if you want to output predicted site wise prevalence, please output matrix Pred_Prevalence
+
+# output files: HA_predicted_consensus_sequence.csv, NA_predicted_consensus_sequence.csv
 
 
 
@@ -574,6 +582,8 @@ wildtype_na[,4] <- wildtype_na[,4]+1
 write.csv(wildtype_ha,file="CombinedH3N2_HA_Wildtype.csv",row.names = F)
 write.csv(wildtype_na,file="CombinedH3N2_NA_Wildtype.csv",row.names = F)
 
+# output files: CombinedH3N2_HA_Wildtype.csv, CombinedH3N2_NA_Wildtype.csv
+
 
 
 
@@ -639,3 +649,5 @@ Mismatch_NA <- cbind(c(start_season:(start_season+pre_year-1)),ave_mismatch,sd)
 
 print(Mismatch_HA) # HA epitope mismatch for predicted vaccines against circulating viruses
 print(Mismatch_NA) # NA epitope mismatch for predicted vaccines against circulating viruses
+
+# output results: epitope mismatch for predicted vaccines against circulating viruses
