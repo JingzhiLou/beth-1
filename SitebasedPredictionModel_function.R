@@ -56,7 +56,7 @@ na_seq <- PrepareSeq(input_fasta_seq = "H3N2_NA_HK_sequence.fasta")
 
 ###########################################################
 # step 2: calculate site wise amino acid prevalence
-# The function 'SitePrev' allows to input csv format sequence data and out put site wise prevalence through time
+# The function 'SitePrev' allows to input csv format sequence data and output site wise prevalence through time
 # Run time: 3-5 minutes
 
 library(plyr)
