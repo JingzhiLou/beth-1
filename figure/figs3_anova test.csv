@@ -1,0 +1,481 @@
+year,who_mismatch,subtype,continent,beth_mismatch
+2013,3.2,h1ha,North America,1.2
+2014,3.16667,h1ha,North America,1.16667
+2015,4.5,h1ha,North America,1.5
+2016,4.03846,h1ha,North America,1.03846
+2017,5.5,h1ha,North America,1.5
+2018,2.31034,h1ha,North America,2.31034
+2019,3.4375,h1ha,North America,1.46875
+2013,2.71429,h1ha,North America,0.71429
+2014,3.08333,h1ha,North America,1.25
+2015,3.2,h1ha,North America,0.2
+2016,4.07595,h1ha,North America,1.07595
+2017,5.0625,h1ha,North America,1.0625
+2018,2.2549,h1ha,North America,2.2549
+2019,2.85616,h1ha,North America,0.86301
+2013,2.33333,h1ha,North America,0.33333
+2014,3,h1ha,North America,1
+2015,3.5,h1ha,North America,0.5
+2016,4.31034,h1ha,North America,1.31034
+2017,6,h1ha,North America,2.14286
+2018,2.57576,h1ha,North America,2.57576
+2019,3.03833,h1ha,North America,1.08014
+2013,3.09091,h1ha,Europe,1.09091
+2014,3.51064,h1ha,Europe,1.51064
+2015,3.36364,h1ha,Europe,0.36364
+2016,3.97802,h1ha,Europe,0.99725
+2017,5.40741,h1ha,Europe,1.40741
+2018,2.19429,h1ha,Europe,2.19429
+2019,2.77402,h1ha,Europe,0.78114
+2013,3.16667,h1ha,Europe,1.16667
+2014,3,h1ha,Europe,1
+2015,3.3125,h1ha,Europe,0.3125
+2016,3.96923,h1ha,Europe,0.98462
+2017,4.33333,h1ha,Europe,0.33333
+2018,2.15,h1ha,Europe,2.15
+2019,2.9,h1ha,Europe,0.94
+2013,2.64706,h1ha,Europe,0.76471
+2014,3.16393,h1ha,Europe,1.16393
+2015,3.11594,h1ha,Europe,0.11594
+2016,4.01242,h1ha,Europe,1.02484
+2017,5.05263,h1ha,Europe,1.05263
+2018,2.36364,h1ha,Europe,2.36364
+2019,3,h1ha,Europe,1.00535
+2013,3.35294,h1ha,Asia,1.35294
+2014,3.07692,h1ha,Asia,1.07692
+2015,3.18182,h1ha,Asia,0.18182
+2016,3.91304,h1ha,Asia,0.91304
+2017,4.53659,h1ha,Asia,0.53659
+2018,2.23776,h1ha,Asia,2.23776
+2019,3.2907,h1ha,Asia,1.2907
+2013,2.94737,h1ha,Asia,0.94737
+2014,3.13208,h1ha,Asia,1.16981
+2015,3.23077,h1ha,Asia,0.23077
+2016,3.44828,h1ha,Asia,0.51724
+2017,4.19192,h1ha,Asia,0.48485
+2018,2.29167,h1ha,Asia,2.29167
+2019,2.92771,h1ha,Asia,1.05622
+2013,3.31818,h1ha,Asia,1.37879
+2014,3.12185,h1ha,Asia,1.12185
+2015,3.59459,h1ha,Asia,0.59459
+2016,4.00803,h1ha,Asia,1.00803
+2017,4.87574,h1ha,Asia,0.89941
+2018,2.83523,h1ha,Asia,2.83523
+2019,3.81513,h1ha,Asia,1.85434
+2013,2.84848,h1ha,Asia,0.84848
+2014,3.33333,h1ha,Asia,1.33333
+2015,3.12712,h1ha,Asia,0.13559
+2016,3.90647,h1ha,Asia,0.92086
+2017,5,h1ha,Asia,1.08871
+2018,2.37903,h1ha,Asia,2.37903
+2019,3.48598,h1ha,Asia,1.51402
+2003,11.9444,h3ha,North America,5.11111
+2004,15.5,h3ha,North America,1.81818
+2005,6.69136,h3ha,North America,2.69136
+2006,4.88679,h3ha,North America,0.90566
+2007,5.8125,h3ha,North America,4.6875
+2008,6.43902,h3ha,North America,5.43902
+2009,5.45455,h3ha,North America,4.45455
+2010,6.33333,h3ha,North America,5.33333
+2011,8.25,h3ha,North America,8.1875
+2012,8.60526,h3ha,North America,6
+2013,3.70588,h3ha,North America,2.11765
+2014,5.94444,h3ha,North America,3.94444
+2015,9.76271,h3ha,North America,6.28249
+2016,5.46552,h3ha,North America,5.46552
+2017,5.22936,h3ha,North America,5.16514
+2018,4.7094,h3ha,North America,2.82051
+2019,9.50382,h3ha,North America,10.1374
+2003,NA,h3ha,North America,NA
+2004,16.3333,h3ha,North America,3.33333
+2005,7.25,h3ha,North America,3.25
+2006,4.125,h3ha,North America,0.75
+2007,5.66667,h3ha,North America,4.11111
+2008,6.9,h3ha,North America,5.9
+2009,3.49315,h3ha,North America,2.5
+2010,7.5,h3ha,North America,6.5
+2011,7.94444,h3ha,North America,7.94444
+2012,8.83333,h3ha,North America,4.83333
+2013,3.53333,h3ha,North America,2.26667
+2014,5.03125,h3ha,North America,3.03125
+2015,9.57692,h3ha,North America,6.03846
+2016,7.14961,h3ha,North America,7.14961
+2017,4.10056,h3ha,North America,3.85475
+2018,4.05634,h3ha,North America,1.76056
+2019,9.12403,h3ha,North America,9.65891
+2003,NA,h3ha,North America,NA
+2004,NA,h3ha,North America,NA
+2005,12.25,h3ha,North America,9.5
+2006,5.4,h3ha,North America,3.8
+2007,9.63636,h3ha,North America,5.90909
+2008,NA,h3ha,North America,NA
+2009,3.83333,h3ha,North America,2.83333
+2010,8.21429,h3ha,North America,7.21429
+2011,8.56667,h3ha,North America,8.5
+2012,8,h3ha,North America,6.69231
+2013,3.56818,h3ha,North America,1.97727
+2014,5.19048,h3ha,North America,3.19048
+2015,9.72273,h3ha,North America,6.25909
+2016,7.78313,h3ha,North America,7.78313
+2017,4.28571,h3ha,North America,3.78992
+2018,4.55432,h3ha,North America,2.37916
+2019,7.51872,h3ha,North America,7.17647
+2003,NA,h3ha,Europe,NA
+2004,15.9841,h3ha,Europe,2.42857
+2005,NA,h3ha,Europe,NA
+2006,NA,h3ha,Europe,NA
+2007,NA,h3ha,Europe,NA
+2008,NA,h3ha,Europe,NA
+2009,NA,h3ha,Europe,NA
+2010,8,h3ha,Europe,7
+2011,7.42857,h3ha,Europe,7.14286
+2012,7.68182,h3ha,Europe,7.11364
+2013,4.86957,h3ha,Europe,2.86957
+2014,5.80952,h3ha,Europe,3.90476
+2015,10.0875,h3ha,Europe,6.36
+2016,8.49091,h3ha,Europe,8.49091
+2017,3.58609,h3ha,Europe,3.54783
+2018,4.88971,h3ha,Europe,3.39853
+2019,7.10702,h3ha,Europe,6.29097
+2003,NA,h3ha,Europe,NA
+2004,NA,h3ha,Europe,NA
+2005,NA,h3ha,Europe,NA
+2006,NA,h3ha,Europe,NA
+2007,NA,h3ha,Europe,NA
+2008,6,h3ha,Europe,5
+2009,NA,h3ha,Europe,NA
+2010,NA,h3ha,Europe,NA
+2011,8,h3ha,Europe,8
+2012,8.55556,h3ha,Europe,8.05556
+2013,4.81818,h3ha,Europe,4.27273
+2014,5.14286,h3ha,Europe,3.21429
+2015,9.78182,h3ha,Europe,5.70909
+2016,3.46154,h3ha,Europe,3.46154
+2017,3.89655,h3ha,Europe,3.55172
+2018,4.83019,h3ha,Europe,3.03774
+2019,7.44086,h3ha,Europe,6.86022
+2003,NA,h3ha,Europe,NA
+2004,NA,h3ha,Europe,NA
+2005,NA,h3ha,Europe,NA
+2006,NA,h3ha,Europe,NA
+2007,6.25,h3ha,Europe,1.75
+2008,7,h3ha,Europe,6
+2009,1.94737,h3ha,Europe,0.94737
+2010,8.33333,h3ha,Europe,7.33333
+2011,7.11111,h3ha,Europe,6.88889
+2012,8,h3ha,Europe,7.88235
+2013,3.71429,h3ha,Europe,1.90476
+2014,4.1,h3ha,Europe,2.1
+2015,9.64557,h3ha,Europe,5.73418
+2016,8.45946,h3ha,Europe,8.45946
+2017,2.63319,h3ha,Europe,2.16594
+2018,5.99167,h3ha,Europe,5.55
+2019,7.2119,h3ha,Europe,6.56667
+2003,NA,h3ha,Asia,NA
+2004,16.9429,h3ha,Asia,4.34286
+2005,7.20513,h3ha,Asia,3.30769
+2006,NA,h3ha,Asia,NA
+2007,5.5,h3ha,Asia,5.5
+2008,6,h3ha,Asia,5
+2009,5.91525,h3ha,Asia,4.91525
+2010,7.40909,h3ha,Asia,6.40909
+2011,8,h3ha,Asia,8
+2012,9.75,h3ha,Asia,9.75
+2013,3.8,h3ha,Asia,1.8
+2014,5.35135,h3ha,Asia,3.40541
+2015,9.47059,h3ha,Asia,5.88235
+2016,8.40741,h3ha,Asia,8.40741
+2017,4.85837,h3ha,Asia,4.95708
+2018,6.89394,h3ha,Asia,8.13636
+2019,6.93151,h3ha,Asia,5
+2003,15.1667,h3ha,Asia,4.6
+2004,16.7353,h3ha,Asia,4.08824
+2005,7.24242,h3ha,Asia,3.48485
+2006,11,h3ha,Asia,8
+2007,6.45455,h3ha,Asia,5.81818
+2008,7.28571,h3ha,Asia,6.14286
+2009,5.76344,h3ha,Asia,4.80645
+2010,7.88889,h3ha,Asia,6.88889
+2011,7.33333,h3ha,Asia,7.33333
+2012,9.3,h3ha,Asia,9.88
+2013,4.43333,h3ha,Asia,2.7
+2014,5.48175,h3ha,Asia,3.60584
+2015,9.00578,h3ha,Asia,4.71098
+2016,7.27027,h3ha,Asia,7.27027
+2017,4.61741,h3ha,Asia,5.01319
+2018,6.51064,h3ha,Asia,7.30851
+2019,7.28438,h3ha,Asia,5.15618
+2003,15,h3ha,Asia,5
+2004,18,h3ha,Asia,4
+2005,5,h3ha,Asia,3
+2006,6.2,h3ha,Asia,2.2
+2007,6,h3ha,Asia,4
+2008,6.5,h3ha,Asia,5.5
+2009,3.66667,h3ha,Asia,2.66667
+2010,8,h3ha,Asia,7
+2011,9.16667,h3ha,Asia,9.16667
+2012,8.4632,h3ha,Asia,8.13853
+2013,3.08333,h3ha,Asia,1.32692
+2014,4.66932,h3ha,Asia,2.89641
+2015,9.60043,h3ha,Asia,6.6453
+2016,8.23958,h3ha,Asia,8.23958
+2017,4.53226,h3ha,Asia,4.13825
+2018,5.63469,h3ha,Asia,4.78967
+2019,6.27019,h3ha,Asia,5.50418
+2003,16.3333,h3ha,Asia,5.33333
+2004,16.3333,h3ha,Asia,2.33333
+2005,10,h3ha,Asia,6
+2006,NA,h3ha,Asia,NA
+2007,5.33333,h3ha,Asia,4.75
+2008,6.875,h3ha,Asia,6.125
+2009,6.39286,h3ha,Asia,5.39286
+2010,7.04878,h3ha,Asia,6.04878
+2011,7.58389,h3ha,Asia,7.58389
+2012,8.65333,h3ha,Asia,8.49333
+2013,2.96296,h3ha,Asia,1.55556
+2014,5.57333,h3ha,Asia,3.57333
+2015,9.57576,h3ha,Asia,6.25758
+2016,8.34228,h3ha,Asia,8.34228
+2017,5.3037,h3ha,Asia,4.65926
+2018,6.18421,h3ha,Asia,7.65789
+2019,5.67568,h3ha,Asia,4.61486
+2003,0.11111,h3na,North America,0.11111
+2004,1.05682,h3na,North America,1.05682
+2005,1.95062,h3na,North America,0.95062
+2006,0.5283,h3na,North America,0.5283
+2007,1.7,h3na,North America,0.96667
+2008,2.075,h3na,North America,1.125
+2009,0.06494,h3na,North America,0.06494
+2010,0,h3na,North America,0
+2011,0.09375,h3na,North America,0.09375
+2012,0.16667,h3na,North America,0.16667
+2013,1.01613,h3na,North America,0.03226
+2014,1.69231,h3na,North America,0.69231
+2015,2.03101,h3na,North America,0.03101
+2016,0.32727,h3na,North America,0.32727
+2017,0.54545,h3na,North America,0.54545
+2018,1.27184,h3na,North America,1.27184
+2019,2.16154,h3na,North America,2.67692
+2003,NA,h3na,North America,NA
+2004,1.285714,h3na,North America,1.285714
+2005,1,h3na,North America,0
+2006,0,h3na,North America,0
+2007,1.666667,h3na,North America,0.888889
+2008,2.3,h3na,North America,1.3
+2009,0.294521,h3na,North America,0.294521
+2010,0,h3na,North America,0
+2011,0.125,h3na,North America,0.125
+2012,0.176471,h3na,North America,0.176471
+2013,1.047619,h3na,North America,0.047619
+2014,1.333333,h3na,North America,0.481481
+2015,2.12,h3na,North America,0.16
+2016,0.07438,h3na,North America,0.07438
+2017,0.41844,h3na,North America,0.41844
+2018,1.025641,h3na,North America,1.025641
+2019,2.162791,h3na,North America,2.449612
+2003,NA,h3na,North America,NA
+2004,NA,h3na,North America,NA
+2005,2,h3na,North America,1
+2006,0,h3na,North America,0
+2007,1.181818,h3na,North America,0.727273
+2008,NA,h3na,North America,NA
+2009,0,h3na,North America,0
+2010,0,h3na,North America,0
+2011,0,h3na,North America,0
+2012,0,h3na,North America,0
+2013,1,h3na,North America,0
+2014,1.666667,h3na,North America,0.666667
+2015,1.990099,h3na,North America,0.089109
+2016,0.177419,h3na,North America,0.177419
+2017,1.057143,h3na,North America,1.057143
+2018,1.322034,h3na,North America,1.322034
+2019,2.301587,h3na,North America,1.555556
+2003,NA,h3na,Europe,NA
+2004,1.031746,h3na,Europe,1.031746
+2005,NA,h3na,Europe,NA
+2006,NA,h3na,Europe,NA
+2007,NA,h3na,Europe,NA
+2008,NA,h3na,Europe,NA
+2009,NA,h3na,Europe,NA
+2010,0,h3na,Europe,0
+2011,0,h3na,Europe,0
+2012,0.259259,h3na,Europe,0.259259
+2013,1.043478,h3na,Europe,0.043478
+2014,1.714286,h3na,Europe,0.809524
+2015,2.027919,h3na,Europe,0.182741
+2016,0.229167,h3na,Europe,0.229167
+2017,0.329768,h3na,Europe,0.329768
+2018,1.28189,h3na,Europe,1.28189
+2019,2.38488,h3na,Europe,1.508591
+2003,NA,h3na,Europe,NA
+2004,NA,h3na,Europe,NA
+2005,NA,h3na,Europe,NA
+2006,NA,h3na,Europe,NA
+2007,NA,h3na,Europe,NA
+2008,2,h3na,Europe,1
+2009,NA,h3na,Europe,NA
+2010,NA,h3na,Europe,NA
+2011,0,h3na,Europe,0
+2012,0.058824,h3na,Europe,0.058824
+2013,1,h3na,Europe,0
+2014,1.142857,h3na,Europe,0.142857
+2015,1.907407,h3na,Europe,0.259259
+2016,0.1,h3na,Europe,0.1
+2017,0.555556,h3na,Europe,0.555556
+2018,1.169811,h3na,Europe,1.169811
+2019,2.189944,h3na,Europe,1.698324
+2003,NA,h3na,Europe,NA
+2004,NA,h3na,Europe,NA
+2005,NA,h3na,Europe,NA
+2006,NA,h3na,Europe,NA
+2007,1,h3na,Europe,0
+2008,2,h3na,Europe,1
+2009,0.157895,h3na,Europe,0.157895
+2010,0,h3na,Europe,0
+2011,0.222222,h3na,Europe,0.222222
+2012,0.176471,h3na,Europe,0.176471
+2013,1,h3na,Europe,0.095238
+2014,1.55,h3na,Europe,0.55
+2015,1.934783,h3na,Europe,0.282609
+2016,0.189189,h3na,Europe,0.189189
+2017,0.22779,h3na,Europe,0.22779
+2018,1.521368,h3na,Europe,1.521368
+2019,2.078571,h3na,Europe,1.580952
+2003,NA,h3na,Asia,NA
+2004,1.2,h3na,Asia,1.2
+2005,1.947368,h3na,Asia,0.947368
+2006,NA,h3na,Asia,NA
+2007,2,h3na,Asia,1
+2008,2,h3na,Asia,1
+2009,0,h3na,Asia,0
+2010,0,h3na,Asia,0
+2011,0.083333,h3na,Asia,0.083333
+2012,0,h3na,Asia,0
+2013,1.2,h3na,Asia,0.2
+2014,2.054054,h3na,Asia,1.054054
+2015,2.117647,h3na,Asia,0.117647
+2016,0.083333,h3na,Asia,0.083333
+2017,0.850467,h3na,Asia,0.850467
+2018,1.423077,h3na,Asia,1.423077
+2019,2.574468,h3na,Asia,0.574468
+2003,0.10345,h3na,Asia,0.10345
+2004,0.97059,h3na,Asia,0.97059
+2005,2.0303,h3na,Asia,1.0303
+2006,3,h3na,Asia,3
+2007,1.81818,h3na,Asia,1.18182
+2008,2,h3na,Asia,1
+2009,0.02353,h3na,Asia,0.02353
+2010,0.30556,h3na,Asia,0.30556
+2011,0.04348,h3na,Asia,0.04348
+2012,0.04,h3na,Asia,0.04
+2013,1.4,h3na,Asia,0.46667
+2014,2.09574,h3na,Asia,1.09574
+2015,1.82407,h3na,Asia,0.31481
+2016,0.20408,h3na,Asia,0.20408
+2017,0.47573,h3na,Asia,0.47573
+2018,1.10588,h3na,Asia,1.10588
+2019,2.62471,h3na,Asia,0.78322
+2003,NA,h3na,Asia,NA
+2004,1,h3na,Asia,1
+2005,2,h3na,Asia,1
+2006,0.4,h3na,Asia,0.4
+2007,1,h3na,Asia,2
+2008,2.25,h3na,Asia,1.25
+2009,0.166667,h3na,Asia,0.166667
+2010,0,h3na,Asia,0
+2011,0,h3na,Asia,0
+2012,0.027473,h3na,Asia,0.027473
+2013,1.113402,h3na,Asia,0.175258
+2014,1.877551,h3na,Asia,0.908163
+2015,1.907104,h3na,Asia,0.224044
+2016,0.074866,h3na,Asia,0.074866
+2017,0.348668,h3na,Asia,0.348668
+2018,1.170543,h3na,Asia,1.170543
+2019,2.782486,h3na,Asia,1.031073
+2003,0.666667,h3na,Asia,0.666667
+2004,0.666667,h3na,Asia,0.666667
+2005,NA,h3na,Asia,NA
+2006,NA,h3na,Asia,NA
+2007,1.833333,h3na,Asia,1
+2008,2,h3na,Asia,1
+2009,0,h3na,Asia,0
+2010,0.025,h3na,Asia,0.025
+2011,0.147651,h3na,Asia,0.147651
+2012,0.133333,h3na,Asia,0.133333
+2013,1.481481,h3na,Asia,0.481481
+2014,1.932432,h3na,Asia,0.932432
+2015,2.21875,h3na,Asia,0.234375
+2016,0.115646,h3na,Asia,0.115646
+2017,1.088889,h3na,Asia,1.088889
+2018,1.663717,h3na,Asia,1.663717
+2019,2.493243,h3na,Asia,0.932432
+2013,0.2,h1na,North America,0.2
+2014,0,h1na,North America,0
+2015,1.5,h1na,North America,1.5
+2016,1.88462,h1na,North America,0.23077
+2017,2,h1na,North America,0
+2018,1.17241,h1na,North America,1.17241
+2019,1.09375,h1na,North America,0.09375
+2013,0,h1na,North America,0
+2014,0.08333,h1na,North America,0.08333
+2015,0.7,h1na,North America,0.7
+2016,1.98734,h1na,North America,0.03797
+2017,2.20833,h1na,North America,0.20833
+2018,1.32,h1na,North America,1.32
+2019,1.5035,h1na,North America,0.5035
+2013,0.33333,h1na,North America,0.33333
+2014,0.66667,h1na,North America,0.66667
+2015,1,h1na,North America,1
+2016,1.89655,h1na,North America,0.31034
+2017,3,h1na,North America,1
+2018,1.36364,h1na,North America,1.36364
+2019,1.375,h1na,North America,0.375
+2013,0.28571,h1na,Europe,0.28571
+2014,0.31915,h1na,Europe,0.31915
+2015,0.81818,h1na,Europe,0.81818
+2016,2.09831,h1na,Europe,0.17135
+2017,3.25926,h1na,Europe,1.25926
+2018,1.51235,h1na,Europe,1.51235
+2019,1.41221,h1na,Europe,0.46565
+2013,0.2,h1na,Europe,0.2
+2014,0.57143,h1na,Europe,0.57143
+2015,0.6875,h1na,Europe,0.6875
+2016,2.08,h1na,Europe,0.08
+2017,2.11111,h1na,Europe,0.11111
+2018,1.1,h1na,Europe,1.1
+2019,1.38776,h1na,Europe,0.42857
+2013,0,h1na,Europe,0
+2014,0.37705,h1na,Europe,0.37705
+2015,0.23529,h1na,Europe,0.23529
+2016,2.0559,h1na,Europe,0.09938
+2017,2.73684,h1na,Europe,0.73684
+2018,1.35714,h1na,Europe,1.35714
+2019,1.38172,h1na,Europe,0.38172
+2013,0.25,h1na,Asia,0.25
+2014,0.76923,h1na,Asia,0.76923
+2015,0.81818,h1na,Asia,0.81818
+2016,2.04545,h1na,Asia,0.04545
+2017,2.41463,h1na,Asia,0.41463
+2018,1.09589,h1na,Asia,1.09589
+2019,1.61364,h1na,Asia,0.65909
+2013,0.15789,h1na,Asia,0.15789
+2014,0.19231,h1na,Asia,0.19231
+2015,0.61538,h1na,Asia,0.61538
+2016,1.86782,h1na,Asia,0.25862
+2017,2.10101,h1na,Asia,0.32323
+2018,0.98544,h1na,Asia,0.98544
+2019,1.35628,h1na,Asia,0.4251
+2013,0.4,h1na,Asia,0.4
+2014,0.14346,h1na,Asia,0.14346
+2015,1.08108,h1na,Asia,1.08108
+2016,2.31727,h1na,Asia,0.38554
+2017,2.50296,h1na,Asia,0.50888
+2018,1.05747,h1na,Asia,1.05747
+2019,1.35629,h1na,Asia,0.36228
+2013,0.30303,h1na,Asia,0.30303
+2014,0.2,h1na,Asia,0.2
+2015,1.22881,h1na,Asia,1.22881
+2016,2.06522,h1na,Asia,0.0942
+2017,2.87097,h1na,Asia,0.87903
+2018,1.11382,h1na,Asia,1.11382
+2019,1.79439,h1na,Asia,0.79439
