@@ -188,8 +188,8 @@ H1N1_WTselection <- function(input_ha_seq, input_na_seq, his_emset, pred_emset, 
     total_VE_EMD <- c()
     EMD_ha <- c()
     EMD_na <- c()
-    ha_ve_site <- intersect(ha_em,ha_as) # H1N1: EMs on antigenic sites, H3N2: EMs on antigenic sites A & B  �̡̡�
-    na_ve_site <- intersect(na_em,na_as) # H1N1: EMs on antigenic sites, H3N2: antigenic sites  �̡̡�
+    ha_ve_site <- intersect(ha_em,ha_as) # H1N1: EMs on antigenic sites, H3N2: EMs on antigenic sites A & B  ¡Ì¡Ì¡Ì
+    na_ve_site <- intersect(na_em,na_as) # H1N1: EMs on antigenic sites, H3N2: antigenic sites  ¡Ì¡Ì¡Ì
     
     for (k in 1:length(ha_test[,1])){ # genetic distance in dynamic predictor set
       name_test <- as.vector(ha_test[k,2])
@@ -326,8 +326,8 @@ H3N2_WTselection <- function(input_ha_seq, input_na_seq, his_emset, pred_emset, 
     total_VE_EMD <- c()
     EMD_ha <- c()
     EMD_na <- c()
-    ha_ve_site <- intersect(ha_em,h3ha_as_ab) # H1N1: EMs on antigenic sites, H3N2: EMs on antigenic sites A & B  �̡̡�
-    na_ve_site <- na_as # H1N1: EMs on antigenic sites, H3N2: antigenic sites  �̡̡�
+    ha_ve_site <- intersect(ha_em,h3ha_as_ab) # H1N1: EMs on antigenic sites, H3N2: EMs on antigenic sites A & B  ¡Ì¡Ì¡Ì
+    na_ve_site <- na_as # H1N1: EMs on antigenic sites, H3N2: antigenic sites  ¡Ì¡Ì¡Ì
     
     for (k in 1:length(ha_test[,1])){ # genetic distance in dynamic predictor set
       name_test <- as.vector(ha_test[k,2])
