@@ -8,6 +8,7 @@ Input datasets:
 
 Step 0.  Install dependent packages 
 R (4.1.3) or newer version is required. To download R, please see the website https://www.r-project.org/ for detailed instructions. The R packages Biostring (2.64.1), lubridate (1.8.0), plyr (1.8.7) and stringr (1.4.0) are pre-requisites, which can be installed from the following websites.
+
 Biostring (2.64.1): https://bioconductor.org/packages/release/bioc/html/Biostrings.html
 lubridate (1.8.0): https://www.rdocumentation.org/packages/lubridate/versions/1.8.0
 plyr (1.8.7): https://www.rdocumentation.org/packages/plyr/versions/1.8.7
