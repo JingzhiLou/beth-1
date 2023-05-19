@@ -39,7 +39,7 @@ Step 6.1  Prediction of future mutation prevalence and obtain consensus strain:
 The prediction requires 3 year-data to burn in. Here we output year-to-year prediction from 2011/12 to 2019/20 season. The function ‘PreYearlyStrain’ allows to input genetic sequence, predicted season, average transition time and history EM set and output predicted consensus sequence and EM set by year. The predicted EM set will be used as part of predictor codon sites to select wildtype strains in the following procedure.
 
 Step 6.2  Select the optimal wild-type strain:
-The VE-GD model [2,3] for influenza virus was best fitted when the genetic distance was evaluated on a subset of EMs residing on epitope A or B for H3N2 and the EMs on antigenic sites for pH1N1, referred to as the predictor codon sites. Here, the relative importance of HA and NA protein to VE are quantified by their effect size of genetic mismatch contributing to VE respectively [2,3]. Two wildtype sequence files for HA and NA protein will be output.
+The VE-GD model [2-4] for influenza virus was best fitted when the genetic distance was evaluated on a subset of EMs residing on epitope A or B for H3N2 and the EMs on antigenic sites for pH1N1, referred to as the predictor codon sites. Here, the relative importance of HA and NA protein to VE are quantified by their effect size of genetic mismatch contributing to VE respectively [2-4]. Two wildtype sequence files for HA and NA protein will be output.
 
 Step 7.  Evaluate vaccine strain performance by genetic mismatch:
 This step aims to compute yearly epitope mismatch of predicted vaccine strains against circulating virus. We also provide sequences of WHO recommended vaccine strains for comparison. This will output yearly average epitope mismatch and standard deviation.
@@ -51,3 +51,4 @@ References:
 [1] Wang MH, Lou J, Cao L, et al. Characterization of key amino acid substitutions and dynamics of the influenza virus H3N2 hemagglutinin. J Infect. 2021;83(6):671-677. doi:10.1016/j.jinf.2021.09.026
 [2] Cao L, Lou J, Zhao S, et al. In silico prediction of influenza vaccine effectiveness by sequence analysis. Vaccine. 2021;39(7):1030-1034. doi:10.1016/j.vaccine.2021.01.006
 [3] Cao L, Zhao S, Lou J, et al. Differential Influence of Age on the Relationship between Genetic Mismatch and A(H1N1)pdm09 Vaccine Effectiveness. Viruses. 2021;13(4):619. Published 2021 Apr 4. doi:10.3390/v13040619
+[4] Cao, L. et al. Improving the prediction of influenza vaccine effectiveness by refined genetic distance measure. medRxiv, 2023.2002. 2014.23285900 (2023).
