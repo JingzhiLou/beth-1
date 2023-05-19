@@ -416,8 +416,8 @@ WTselection <- function(input_ha_seq, input_na_seq, pred_emset, ha_pre_seq, na_p
     total_VE_EMD <- c()
     EMD_ha <- c()
     EMD_na <- c()
-    ha_ve_site <- intersect(ha_em,h3ha_as_ab) # H1N1: EMs on antigenic sites, H3N2: EMs on antigenic sites A & B  �̡̡�
-    na_ve_site <- na_as # H1N1: EMs on antigenic sites, H3N2: antigenic sites  �̡̡�
+    ha_ve_site <- intersect(ha_em,h3ha_as_ab) # H1N1: EMs on antigenic sites, H3N2: EMs on antigenic sites A & B  ¡Ì¡Ì¡Ì
+    na_ve_site <- na_as # H1N1: EMs on antigenic sites, H3N2: antigenic sites  ¡Ì¡Ì¡Ì
     
     for (k in 1:length(ha_test[,1])){ # genetic distance in dynamic predictor set
       name_test <- as.vector(ha_test[k,2])
@@ -560,8 +560,8 @@ GetMismatch <- function(input_pre_seq, input_cir_seq, test_site, test_year){
   return(Mismatch)
 }
 
-ha_mismatch <- GetMismatch(input_pre_seq = h3n2_wildtype_result$beth_ha, input_cir_seq = ha_seq, test_site = h3ha_as, test_year = c(2012:2020))
-na_mismatch <- GetMismatch(input_pre_seq = h3n2_wildtype_result$beth_na, input_cir_seq = na_seq, test_site = h3na_as, test_year = c(2012:2020))
+ha_mismatch <- GetMismatch(input_pre_seq = h3n2_wildtype_result$beth_ha, input_cir_seq = ha_seq, test_site = c(1:566), test_year = c(2012:2020))
+na_mismatch <- GetMismatch(input_pre_seq = h3n2_wildtype_result$beth_na, input_cir_seq = na_seq, test_site = c(1:469), test_year = c(2012:2020))
 
 ## output: average genetic mismatch tables
 
