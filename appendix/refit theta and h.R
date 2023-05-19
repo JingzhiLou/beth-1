@@ -143,4 +143,5 @@ for (year in test_year){
 }
 
 # output: average transition time for HA and NA protein by year
+
 # end.
