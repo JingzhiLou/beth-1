@@ -50,5 +50,5 @@ na_ran_mismatch <- RandomPickStrain(input_csv_seq = read.csv("H3N2_NA_HK_sequenc
 
 # Output: genetic mismatch table by year
 
-#write.csv(ha_ran_mismatch,file="h1ha_random_mismatch.csv")
-#write.csv(na_ran_mismatch,file="h1na_random_mismatch.csv")
+# write.csv(ha_ran_mismatch,file="h1ha_random_mismatch.csv")
+# write.csv(na_ran_mismatch,file="h1na_random_mismatch.csv")
