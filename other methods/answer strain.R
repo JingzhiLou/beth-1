@@ -132,7 +132,6 @@ GetAnswerWT<- function(input_ha_seq, input_na_seq, ha_pre_seq, na_pre_seq, pre_y
   return(list(answer_ha = wildtype_ha, answer_na = wildtype_na))
 }
 
-
 answer_wildtype_result <- GetAnswerWT(input_ha_seq = read.csv("H3N2_HA_HK_sequence.csv"), 
                                       input_na_seq = read.csv("H3N2_NA_HK_sequence.csv"), 
                                       ha_pre_seq <- read.csv("H3N2_HA_HK_answer consensus.csv"),
